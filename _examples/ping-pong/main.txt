@@ -1,0 +1,16 @@
+example of how we want to be able to use godis
+
+package main
+
+
+func main() {
+	bot, err := godis.NewBot("TOKEN")
+	if err != nil {
+		panic(err)
+	}
+	bot.Guilds() ?
+	handlers?
+	event listeners? ( wrap like JSONUnmarshall does)
+	slash commands?
+	
+}
