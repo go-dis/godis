@@ -1,15 +1,15 @@
 package godis
 
 type Client struct {
-	token  string
+	token string
 }
-
 
 func New() *Client {
 	c := &Client{}
 	return c
 }
 
-func Login(token string) {
-	//logic
+func (c *Client) Login(token string) {
+	c.token = token
+        
 }
